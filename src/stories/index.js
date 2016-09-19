@@ -21,6 +21,9 @@ var projectList = [
 storiesOf('Profile', module)
   .add('Show hello profile', () => (
     <Profile name={'Hello'}/>
+  ))
+  .add('Show somkiat profile', () => (
+    <Profile name={'Somkiat'}/>
   ));
 
 storiesOf('ProjectItem', module)
